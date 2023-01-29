@@ -1,0 +1,21 @@
+{
+  "name": "cypresswithpom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "Takei",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^12.3.0",
+    "dayjs": "^1.11.7",
+    "del": "^7.0.0",
+    "eslint": "^8.32.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}
