@@ -11,7 +11,7 @@
   "author": "Takei",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^12.3.0",
+    "cypress": "^12.5.0",
     "dayjs": "^1.11.7",
     "del": "^7.0.0",
     "eslint": "^8.32.0",

@@ -2,3 +2,9 @@
 npx cypress run --spec cypress/e2e/saucedemo
 -- To run specific test file
 npx cypress run --spec cypress/e2e/test.cy.js
+
+|| To run in headless mode: use --headless after npx cypress run command
+npx cypress run --spec cypress/e2e/test.cy.js --headless
+|| To specific browser to run: use --browser chrome --browser firefox , etc to force test browser
+npx cypress run --spec cypress/e2e/test.cy.js --browser firefox
+|| 

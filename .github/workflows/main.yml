@@ -6,8 +6,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Run E2E tests
+      - name: Run E2E SauceDemo tests
         uses: cypress-io/github-action@v5
         with:
           spec: |
             cypress/e2e/saucedemo
+jobs:
+  cypress-run:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run E2E TodoMVC tests
+        uses: cypress-io/github-action@v5
+        with:
+          spec: |
+            cypress/e2e/todomvc

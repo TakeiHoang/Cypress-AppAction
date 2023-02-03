@@ -1,0 +1,31 @@
+## For github action
+
+- Name of the workflow
+name: End-to-end tests
+
+- Force the job running on
+// push - Every time you push a new commit this action will run
+// schedule: - Schedule the action to be run as 
+//  - cron: "*/5 * * * *" 
+{
+    on: [push]
+}
+
+- Define the jobs to run, can be declare multiple jobs
+{
+    jobs:
+        cypress-run:
+            runs-on: windows-latest
+            steps:
+            //Step checkout the repo
+            - name: Checkout
+                uses: actions/checkout@v3
+            //Step run the test with cypress
+            - name: Run E2E tests
+                uses: cypress-io/github-action@v5
+            //Run specific test folder. You can run specific test which point to file .cy.js eg: cypress/e2e/saucedemo/login.cy.js
+                with:
+                    spec: |
+                        cypress/e2e/saucedemo
+}
+
