@@ -10,7 +10,7 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           spec: |
-            cypress/e2e/saucedemo
+            cypress/e2e/regression/saucedemo
   cypress-run-job2:
     runs-on: windows-latest
     steps:
@@ -20,4 +20,4 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           spec: |
-            cypress/e2e/todomvc
+            cypress/e2e/integration/reqresin
