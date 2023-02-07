@@ -1,4 +1,7 @@
 # CypressAppAction
+
+[![End-to-end tests](https://github.com/TakeiHoang/Cypress-AppAction/actions/workflows/main.yml/badge.svg)](https://github.com/TakeiHoang/Cypress-AppAction/actions/workflows/main.yml)
+
  ## How To Run On Local
  https://github.com/TakeiHoang/Cypress-AppAction/blob/main/cypress/e2e/command.txt
  
