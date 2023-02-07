@@ -1,7 +1,7 @@
 name: End-to-end tests
 on: [push]
 jobs:
-  cypress-run:
+  cypress-run-job1:
     runs-on: windows-latest
     steps:
       - name: Checkout
@@ -11,8 +11,7 @@ jobs:
         with:
           spec: |
             cypress/e2e/saucedemo
-jobs:
-  cypress-run:
+  cypress-run-job2:
     runs-on: windows-latest
     steps:
       - name: Checkout
