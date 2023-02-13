@@ -1,4 +1,5 @@
 # CypressAppAction
+ ## Please be aware that SauceLab not work properly with new cypress. The only way to run it is by command line. Otherwise you only able to run Cypress UI 1 time and have to close it to be able to run it again
 
 [![End-to-end tests](https://github.com/TakeiHoang/Cypress-AppAction/actions/workflows/main.yml/badge.svg)](https://github.com/TakeiHoang/Cypress-AppAction/actions/workflows/main.yml)
 
